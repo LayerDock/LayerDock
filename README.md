@@ -1,108 +1,73 @@
-# LayerDock: Website Feedback Tool for Teams and Clients
+<div align="center">
 
-<p align="center">
-  <img src="assets/layerdock-hero.svg" alt="LayerDock animated preview: a pin drops on a live website, the client comment captures a screenshot, selector and console logs, then the feedback is marked resolved" width="100%">
-</p>
+<img src="assets/layerdock-hero.svg" alt="LayerDock animated preview: a pin drops on a live website, the client comment captures a screenshot, selector and console logs, then the feedback is marked resolved" width="100%">
 
-**See it. Capture it. Ship it.**
+# 📌 LayerDock
 
-LayerDock is a browser-based website feedback tool and visual bug reporting workspace. Teams and clients pin comments directly on a live website, and every pin automatically captures the screenshot, CSS selector, viewport size, console logs and network requests your developers need to fix the issue. Nothing to download. No Chrome extension required.
+**Website feedback tool. See it. Capture it. Ship it.**
 
-[Start for free](https://layerdock.io) | [Explore the tools](https://layerdock.io) | [Pricing](https://layerdock.io)
+Pin comments on any live website. Every pin auto-captures the screenshot, CSS selector, viewport, console logs and network requests. Send it to Claude Code or Cursor with MCP. No install needed.
+
+[![Start for free](https://img.shields.io/badge/Start_for_free-layerdock.io-6C47FF?style=for-the-badge)](https://layerdock.io)
+[![Indie Hackers](https://img.shields.io/badge/Indie_Hackers-LayerDock-0E2439?style=for-the-badge&logo=indiehackers&logoColor=white)](https://www.indiehackers.com/product/layerdock)
+
+</div>
 
 ---
 
 ## What is LayerDock?
 
-LayerDock is a website feedback and review tool for web designers, agencies, freelancers, product teams and QA. It replaces scattered screenshots, long email threads and vague "the button looks off" messages with feedback pinned to the exact element on the live page, along with the technical context needed to resolve it.
-
-Use LayerDock for:
-
-- **Website feedback and client review:** share a review link, no account or install needed for your client
-- **Visual bug reporting:** every report carries a screenshot, selector, viewport, console logs and network requests
-- **Design review and QA:** review desktop, tablet and mobile views in one place
-- **Developer handoff:** send pins straight to your coding agent through MCP
+A browser-based website feedback and visual bug reporting tool for agencies, freelancers, product teams and QA. Clients click an element on the live page, leave a comment, and developers get everything they need to fix it.
 
 ---
 
-## Key Features
+## 📍 Pin comments on the live site
 
-### Pin-based website commenting
-Click any element on a live site and leave a comment. Pins stay attached to the element, and they survive redeploys by re-finding the element through its selector, text and shape (Shadow DOM included).
+<img src="assets/pin-feedback.png" alt="LayerDock website feedback: a comment pinned to an element on a live page" width="100%">
 
-### Automatic context capture
-Each pin automatically records:
+Pins stay attached to the element and survive redeploys, Shadow DOM included.
 
-- Screenshot
-- CSS selector
-- Viewport size
-- Console logs
-- Network requests
-- Browser and OS info
+## 🤖 Context captured automatically
 
-### Tools
+<img src="assets/auto-capture.png" alt="LayerDock visual bug report with screenshot, CSS selector, viewport, console logs and network requests" width="100%">
 
-| Tool | What it does |
-| --- | --- |
-| **Feedback** | Pin comments on live pages with threads, statuses and reactions |
-| **Capture** | Record video and audio, plus a rolling 60 second dashcam buffer |
-| **Diagnostics** | Bundle console and network logs with every report |
-| **Accessibility mode** | Run an in-browser accessibility audit to find and inspect issues |
-| **Draw** | Annotate screenshots with pen, arrow, highlight, text and eraser |
-| **Inspect** | Look under the hood of any element and preview other viewports without leaving the page |
+Screenshot · CSS selector · viewport · console logs · network requests · browser and OS
 
-### MCP developer handoff
-Open any pin in a coding agent such as Claude Code or Cursor. Each pin passes the selector, screenshot and console trace, so developers fix the issue in their editor while clients stay in the LayerDock review page.
+## 🔌 Send pins to your coding agent
 
-### Client sharing
-Create a separate client review page and share it with a link. Clients review without learning a developer workflow, and internal team notes stay private.
+<img src="assets/mcp-handoff.png" alt="LayerDock MCP handoff opening a pin in Claude Code or Cursor" width="100%">
 
-### Multi-viewport review
-Switch between desktop, tablet and mobile, or use free roam for custom sizes.
+Open any pin in **Claude Code** or **Cursor** with the selector, screenshot and console trace attached.
 
-### Team workflow
-Assign pins, change statuses (Open, In progress, Resolved), reply in threads and get notifications and email alerts.
+## 🔗 Share with clients, no account needed
 
-### Integrations
-Sync feedback to Slack, Jira, Linear, GitHub, Trello and ClickUp.
+<img src="assets/client-review.png" alt="LayerDock client review page shared by link" width="100%">
+
+Clients review through a link. Internal team notes stay private.
 
 ---
 
-## How It Works
+## How it works
 
-<p align="center">
-  <img src="assets/layerdock-workflow.svg" alt="LayerDock workflow in three steps: See it, Capture it, Ship it" width="100%">
-</p>
+<img src="assets/layerdock-workflow.svg" alt="LayerDock workflow in three steps: See it, Capture it, Ship it" width="100%">
 
-1. **Create a Dock.** A Dock is one website you are reviewing.
-2. **Add a Version.** Versions are the drafts or builds of that site that you share for review.
-3. **Share the link.** Clients and teammates open the review page and pin their feedback.
-4. **Triage and assign.** Assign pins to team members and track status through to Resolved.
-5. **Ship the fix.** Hand pins to your developer or coding agent with full technical context.
+1. **Create a Dock** (one website you are reviewing)
+2. **Add a Version** (a draft or build to review)
+3. **Share the link** with clients and teammates
+4. **Triage and assign** pins through Open, In progress, Resolved
+5. **Ship the fix** with full technical context
 
 ---
 
-## LayerDock Chrome Extension
+## Everything else
 
-Prefer to comment without returning to the dashboard? The companion Chrome extension opens the LayerDock editor for whatever page you are on. Open it on any site, add the site to your workspace, and start leaving feedback right where you are. You can also copy the share link from the same popup.
-
-The extension is optional. LayerDock works fully in the browser without it.
-
----
-
-## LayerDock vs Other Website Feedback Tools
-
-Looking for a BugHerd alternative, a Marker.io alternative, a MarkUp.io alternative or a Jam alternative? LayerDock is built around a browser-native workspace where clients and teams share one review flow, and where developer context (console logs, network requests, selectors) is captured automatically on every pin.
-
----
-
-## Who Is LayerDock For?
-
-- **Web design agencies** collecting client feedback and sign-off
-- **Freelance designers and developers** who want fewer revision rounds
-- **Product teams** running design review and QA on staging and production sites
-- **Framer, Webflow and WordPress teams** reviewing live builds
-- **Engineering teams** using Claude Code or Cursor who want bug reports they can act on
+- **Capture:** video, audio and a rolling 60 second dashcam buffer
+- **Draw:** pen, arrow, highlight, text, eraser
+- **Inspect:** view element details and preview other viewports
+- **Accessibility mode:** in-browser audit (not a compliance guarantee)
+- **Multi-viewport:** desktop, tablet, mobile, free roam
+- **Integrations:** Slack, Jira, Linear, GitHub, Trello, ClickUp
+- **Chrome extension:** optional shortcut, not required
 
 ---
 
@@ -110,48 +75,39 @@ Looking for a BugHerd alternative, a Marker.io alternative, a MarkUp.io alternat
 
 | Plan | Price | Highlights |
 | --- | --- | --- |
-| **Free** | $0 | 1 member, 2 docks, 35 feedback submissions per month, client share link on one dock, no credit card needed |
-| **Pro** | $15/mo billed yearly, $19/mo billed monthly | 7 members, 5 docks, unlimited feedback and versions, screen recording, share links on every dock, Slack/Jira/Linear/GitHub/Trello sync, limited-context MCP |
-| **Agency** | $59/mo billed yearly, $69/mo billed monthly | 20 members, unlimited docks, console and network diagnostics on every pin, full-context MCP, workspace team management |
+| **Free** | $0 | 1 member, 2 docks, 35 feedback submissions per month, no credit card |
+| **Pro** | $15/mo yearly, $19/mo monthly | 7 members, 5 docks, unlimited feedback, screen recording, integrations, limited-context MCP |
+| **Agency** | $59/mo yearly, $69/mo monthly | 20 members, unlimited docks, diagnostics on every pin, full-context MCP |
 
-Paid plans include a 14 day free trial. See current details at [layerdock.io](https://layerdock.io).
-
----
-
-## Frequently Asked Questions
-
-**Do I need to install anything to use LayerDock?**
-No. LayerDock runs in the browser. The Chrome extension is an optional shortcut.
-
-**Do my clients need an account?**
-No. Clients review through a shareable link and do not need to learn the developer workflow.
-
-**What does LayerDock capture with each comment?**
-A screenshot, CSS selector, viewport size, console logs, network requests and browser and OS info.
-
-**Can I send feedback to my coding agent?**
-Yes. MCP integration opens pins in Claude Code or Cursor with the selector, screenshot and console trace attached.
-
-**Does LayerDock replace BugHerd, Marker.io or MarkUp.io?**
-It covers the same website feedback and visual bug reporting use cases, with a browser-native workspace and automatic technical context on every pin.
-
-**Does the accessibility mode guarantee compliance?**
-No. It is an audit tool that helps you inspect and find issues. It does not certify compliance.
+14 day free trial on paid plans. Details at [layerdock.io](https://layerdock.io).
 
 ---
 
-## Links
+## Who is it for?
 
-- Website: [layerdock.io](https://layerdock.io)
-- Indie Hackers: [indiehackers.com/product/layerdock](https://www.indiehackers.com/product/layerdock)
+Web design agencies · freelancers · product teams · QA · Framer, Webflow and WordPress teams · engineering teams using Claude Code or Cursor
+
+Looking for a **BugHerd alternative**, **Marker.io alternative**, **MarkUp.io alternative** or **Jam alternative**? LayerDock captures developer context automatically on every pin.
+
+---
+
+## FAQ
+
+**Do I need to install anything?** No. It runs in the browser.
+
+**Do clients need an account?** No. They use a share link.
+
+**What is captured with each comment?** Screenshot, CSS selector, viewport, console logs, network requests, browser and OS.
+
+**Can I send feedback to my coding agent?** Yes, through MCP with Claude Code or Cursor.
 
 ---
 
-## About
+<div align="center">
 
-LayerDock is built by a small team of designers and developers who got tired of unclear client feedback on websites they shipped themselves. LayerDock helps teams and clients turn website feedback into clear, actionable work.
+[**layerdock.io**](https://layerdock.io) · [Indie Hackers](https://www.indiehackers.com/product/layerdock)
 
----
+</div>
 
 <!--
 Suggested GitHub repository settings for SEO
