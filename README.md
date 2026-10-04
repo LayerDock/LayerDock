@@ -6,6 +6,8 @@
 
 <br><br>
 
+<img src="assets/banner.svg" alt="See it. Capture it. Ship it." width="100%">
+
 ### Website feedback, done right.
 
 **Pin comments on any live website. Every pin captures the screenshot, CSS selector, viewport, console logs and network requests, then hands it to Claude Code or Cursor over MCP. Nothing to install.**
@@ -81,11 +83,15 @@ Clients review through a link. They never sign up, and your internal team notes 
 
 ## How it works
 
-1. **Create a dock**: one website you are reviewing.
-2. **Add a layer**: a draft or build to review.
-3. **Share the link** with clients and teammates.
-4. **Triage and assign** pins through Open, In review, Changes requested, Approved and Resolved.
-5. **Ship the fix** with the full technical context attached.
+<table>
+<tr>
+<td width="33%" valign="top"><img src="assets/how-see.png" alt="See it"><br><b>1. See it</b><br>Open the review link, pick a viewport, click anything on the page.</td>
+<td width="33%" valign="top"><img src="assets/how-capture.png" alt="Capture it"><br><b>2. Capture it</b><br>Comment, draw or record. The screenshot, selector and logs attach themselves.</td>
+<td width="33%" valign="top"><img src="assets/how-share.png" alt="Ship it"><br><b>3. Ship it</b><br>Triage, assign, or hand the pin to Claude Code or Cursor to fix.</td>
+</tr>
+</table>
+
+Set up: **create a dock** (one website), **add a layer** (a draft or build), **share the link**. Pins move through Open, In review, Changes requested, Approved and Resolved.
 
 Want to see it first? Paste any URL at [layerdock.io/try](https://layerdock.io/try) and get a working review link, no account.
 
