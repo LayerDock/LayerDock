@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://layerdock.io">
-  <img src="public/logo/lockup-horizontal/svg/lockup-black-typo.svg" alt="LayerDock" height="56">
+  <img src="assets/lockup-black-typo.svg" alt="LayerDock" height="52">
 </a>
 
 <br><br>
@@ -13,18 +13,19 @@
 <br>
 
 [![Start for free](https://img.shields.io/badge/Start_for_free-layerdock.io-6C47FF?style=for-the-badge)](https://layerdock.io)
+[![Try without an account](https://img.shields.io/badge/Try_it_now-no_signup-0E2439?style=for-the-badge)](https://layerdock.io/try)
 [![Indie Hackers](https://img.shields.io/badge/Indie_Hackers-LayerDock-0E2439?style=for-the-badge&logo=indiehackers&logoColor=white)](https://www.indiehackers.com/product/layerdock)
-[![Chrome](https://img.shields.io/badge/Layerdock_for_Chrome-optional-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://layerdock.io)
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-ready-6C47FF?style=flat-square)
+![No install](https://img.shields.io/badge/no_install-browser_only-6C47FF?style=flat-square)
+![Client reviews](https://img.shields.io/badge/clients-no_account_needed-6C47FF?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-Claude_Code_%C2%B7_Cursor-6C47FF?style=flat-square)
+![Free plan](https://img.shields.io/badge/free_plan-$0_forever-3ECF8E?style=flat-square)
 
 <br>
 
-<img src="public/shots/hero-dashboard.png" alt="LayerDock dashboard: pins on a live website with the review sidebar open" width="100%">
+<a href="https://layerdock.io">
+  <img src="assets/hero.png" alt="LayerDock dashboard showing docks with their feedback counts and reviewers" width="100%">
+</a>
 
 </div>
 
@@ -44,33 +45,35 @@ Your client opens a link, clicks the thing that is wrong, and types what they wa
 
 ### 📍 Pin comments on the live site
 
-<img src="public/features/feedback.webp" alt="A comment pinned to an element on a live page" width="100%">
+<img src="assets/pin.png" alt="A client comment pinned to an element on a live page, with status and assignee in the review sidebar" width="100%">
 
-Pins stick to the element, not the pixel, and re-anchor after redeploys. Reviewers switch between desktop, tablet and mobile viewports without leaving the page.
+Pins stick to the element, not the pixel, and re-anchor after redeploys. Reviewers switch between desktop, tablet and mobile without leaving the page.
 
 ### 🤖 Context captured automatically
 
-<img src="public/features/diagnostics.webp" alt="A pin with screenshot, CSS selector, viewport, console logs and network requests" width="100%">
+<img src="assets/diagnostics.png" alt="Debug info on a pin: browser, OS, viewport, screen and language" width="100%">
 
-Screenshot · CSS selector · viewport · console logs · network requests · browser and OS. Recorded on every pin, whatever the plan.
+Screenshot · CSS selector · viewport · console logs · network requests · browser and OS. Recorded on every pin, so the first reply is never "which browser?".
 
 ### 🔌 Hand pins to your coding agent
 
-<img src="public/features/mcp.webp" alt="A pin opened in Claude Code or Cursor through MCP" width="100%">
+<img src="assets/mcp.png" alt="Claude Code listing open LayerDock pins through MCP" width="100%">
 
-The LayerDock MCP server lets **Claude Code** and **Cursor** read a pin, its selector, screenshot and console trace, reply to it and move it to resolved.
+The LayerDock MCP server lets **Claude Code** and **Cursor** list a dock's pins, read the selector, screenshot and console trace, reply, and move a pin to resolved.
 
 ### ✏️ Draw, record and inspect
 
 <table>
 <tr>
-<td width="33%"><img src="public/features/draw.webp" alt="Draw on a screenshot"><br><b>Draw</b><br>Pen, arrow, highlight, text, eraser.</td>
-<td width="33%"><img src="public/features/capture.webp" alt="Screen recording"><br><b>Capture</b><br>Screen recordings up to 3 minutes, with audio.</td>
-<td width="33%"><img src="public/features/inspect.webp" alt="Inspect an element"><br><b>Inspect</b><br>Element details and in-browser accessibility checks.</td>
+<td width="33%" valign="top"><img src="assets/draw.png" alt="Draw on a screenshot"><br><b>Draw</b><br>Pen, arrow, highlight, text, eraser.</td>
+<td width="33%" valign="top"><img src="assets/record.png" alt="Screen recording"><br><b>Record</b><br>Screen recordings up to 3 minutes, plus a rolling 60 second dashcam.</td>
+<td width="33%" valign="top"><img src="assets/inspect.png" alt="Inspect an element"><br><b>Inspect</b><br>Element details and in-browser accessibility checks.</td>
 </tr>
 </table>
 
 ### 🔗 Share with clients, no account needed
+
+<img src="assets/how-share.png" alt="Share this layer with your client: a link anyone can open to review, no account needed" width="70%">
 
 Clients review through a link. They never sign up, and your internal team notes stay private. Each client sees only their own pins.
 
@@ -84,13 +87,12 @@ Clients review through a link. They never sign up, and your internal team notes 
 4. **Triage and assign** pins through Open, In review, Changes requested, Approved and Resolved.
 5. **Ship the fix** with the full technical context attached.
 
-Try it without an account: paste a URL at [layerdock.io/try](https://layerdock.io/try) and get a working review link.
+Want to see it first? Paste any URL at [layerdock.io/try](https://layerdock.io/try) and get a working review link, no account.
 
 ---
 
 ## Everything else
 
-- **Dashcam:** a rolling 60 second buffer, so a bug that already happened is still on tape
 - **Multi-viewport:** desktop, tablet, mobile, free roam
 - **Integrations:** Slack, Jira, Linear, GitHub, Trello
 - **Team roles and permissions:** who can edit, assign and invite
@@ -107,7 +109,7 @@ Try it without an account: paste a URL at [layerdock.io/try](https://layerdock.i
 | **Pro** | $15/mo yearly · $19/mo monthly | 5 docks, unlimited feedback, 7 team members, screen recording, integrations, MCP |
 | **Agency** | $59/mo yearly · $69/mo monthly | Unlimited docks, 20 team members, diagnostics on every pin, full-context MCP, team permissions |
 
-Paid plans start with a 14 day free trial. Current prices live at [layerdock.io](https://layerdock.io/#pricing).
+Paid plans start with a 14 day free trial. Current prices are always at [layerdock.io](https://layerdock.io/#pricing).
 
 ---
 
@@ -116,40 +118,6 @@ Paid plans start with a 14 day free trial. Current prices live at [layerdock.io]
 Web design agencies · freelancers · product teams · QA · Framer, Webflow and WordPress teams · engineering teams using Claude Code or Cursor.
 
 Looking for a **BugHerd**, **Marker.io**, **MarkUp.io** or **Jam** alternative? LayerDock captures developer context automatically on every pin.
-
----
-
-## Under the hood
-
-```
-Next.js app (Vercel)          Dashboard, landing, admin, review dock, API routes
-embed.js (Webpack)            The pin tool, runs inside the reviewed site's frame
-Review proxy (Cloudflare)     Serves the site on a signed subdomain and injects embed.js
-Layerdock for Chrome          Optional launcher, talks to the bearer API only
-Supabase                      Postgres, Auth (Google), Storage
-Paddle                        Billing, merchant of record
-Resend                        Email
-```
-
-### Run it locally
-
-```bash
-git clone https://github.com/LayerDock/LayerDock-Saas.git
-cd LayerDock-Saas
-npm install
-cp .env.example .env.local   # fill in Supabase, Paddle and Resend keys
-npm run dev
-```
-
-| Script | What it does |
-| --- | --- |
-| `npm run dev` | Next.js dev server |
-| `npm run build:embed` | Builds the pin tool to `public/embed.js` (set `NODE_OPTIONS=--max-old-space-size=6144` on Windows) |
-| `npm run build:extension` | Builds Layerdock for Chrome |
-| `npm run deploy:proxy` | Deploys the review proxy Worker |
-| `npm run verify` | Typecheck, lint and unit tests |
-
-More detail in [`docs/runbooks/`](docs/runbooks).
 
 ---
 
@@ -167,6 +135,8 @@ More detail in [`docs/runbooks/`](docs/runbooks).
 
 <div align="center">
 
-[**layerdock.io**](https://layerdock.io) · [Indie Hackers](https://www.indiehackers.com/product/layerdock)
+[**layerdock.io**](https://layerdock.io) · [Try it free](https://layerdock.io/try) · [Indie Hackers](https://www.indiehackers.com/product/layerdock)
+
+<sub>© LayerDock. This repository hosts the public project page; the product is closed source.</sub>
 
 </div>
