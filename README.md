@@ -1,7 +1,11 @@
 <div align="center">
 
 <a href="https://layerdock.io">
-  <img src="assets/lockup-black-typo.svg" alt="LayerDock" height="52">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/lockup-white-typo.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/lockup-black-typo.svg">
+    <img src="assets/lockup-black-typo.svg" alt="LayerDock" height="52">
+  </picture>
 </a>
 
 <br><br>
